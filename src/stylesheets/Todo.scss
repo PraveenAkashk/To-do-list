@@ -1,0 +1,60 @@
+.todo-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+
+    .todo-wrap{
+        max-width: 650px;
+        margin: 0 auto;
+        background: rgb(198 199 200 / 20%);
+        padding: 20px;
+        border-radius: 20px;
+    
+        .title{
+            text-align: center;
+        }
+
+        .error-text{
+            text-transform: uppercase;
+            font-weight: bold;
+            color: red;
+            text-align: left;
+        }
+
+        .list-main{
+            margin: 20px 0;
+
+            .list-wrap{
+
+                .list{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 20px;
+
+                    span{
+                        text-transform: uppercase;
+                        font-size: 18px;
+                        font-weight: bold;
+                    }
+
+                    .button-wrap{
+                        display: flex;
+                        align-items: center;
+                        gap: 20px;
+                    }
+                }
+
+            }
+        }
+
+        .edit-wrap{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+    }
+}
